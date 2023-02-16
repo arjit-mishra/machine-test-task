@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: task
+
+resourceUrl: https://jsonmock.hackerrank.com/api/football_matches?year=2011&page=1
+
+secret: 4B6150645367556B58703273357638792F423F4528482B4D6251655468576D59
