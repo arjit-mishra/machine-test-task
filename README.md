@@ -3,7 +3,7 @@ Machine Test task for eminence innovation.
 
 --------------------------------------------------------------
 
-> user and password is hardcoded.
+> UserDetailService impletementation is hardcoded.
 
 > Secret and Resource URL are taken from application.yml
 
@@ -55,6 +55,9 @@ II - To get draw match count with multithreading
 
 ```
 
+_______________________________________________________________
+
+> NOTE: Please enable AnotationPreprossing for LombokSupport. I've used ProjectLombok for genrating boilerplate code.
 
 
 
