@@ -38,7 +38,8 @@ POST localhost:9000/auth/
 ```body
 TASK 1: To get data from token (both admin and tester can access)
 
-    GET  localhost:9000/api/admin/drawMatchesCount
+    GET  localhost:9000/api/tokenData
+
 ```
 
 ```body
@@ -47,8 +48,8 @@ TASK 2: is divided in 2 APIs (only admin can access)
 
 I - To get draw match count without multithreading
 
-    GET  localhost:9000/api/tokenData
-
+    GET  localhost:9000/api/admin/drawMatchesCount
+    
 II - To get draw match count with multithreading
 
     GET - localhost:9000/api/admin/drawMatchesCountThread
